@@ -43,7 +43,7 @@ html, body {
     background-size: 20px 20px;
     height: 40px;
     width: 40px;
-    background-color: var(--arbres-header-color);
+    background-color: #6b7e7cd9;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -63,7 +63,7 @@ html, body {
     background-size: 20px 20px;
     height: 40px;
     width: 40px;
-    background-color: var(--arbres-header-color);
+    background-color: #6b7e7cd9;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -136,7 +136,7 @@ html, body {
 /* Default category colors */
 .slider-wrapper .cards.block.swiper.slider-swiper ul.swiper-wrapper li.swiper-slide a .listing-cat,
 .slider-wrapper .cards.block.swiper.slider-swiper ul.swiper-wrapper li.swiper-slide.color-default a .listing-cat {
-    background-color: var(--site-color-2);
+    background-color: #839790;
     color: #FFF;
     text-transform: uppercase;
     display: inline-block;
@@ -147,7 +147,7 @@ html, body {
 
 /* Brown category colors */
 .slider-wrapper .cards.block.swiper.slider-swiper ul.swiper-wrapper li.swiper-slide.color-brown a .listing-cat {
-    background-color: var(--news-category);
+    background-color: #947f5f;
     color: #FFF;
     text-transform: uppercase;
     display: inline-block;
@@ -159,7 +159,7 @@ html, body {
 /* Default date colors */
 .slider-wrapper .cards.block.swiper.slider-swiper ul.swiper-wrapper li.swiper-slide a .listing-date,
 .slider-wrapper .cards.block.swiper.slider-swiper ul.swiper-wrapper li.swiper-slide.color-default a .listing-date {
-    color: var(--site-color-2);
+    color: #839790;
     padding: 10px 0;
     display: inline-block;
     font-size: 10px;
@@ -168,7 +168,7 @@ html, body {
 
 /* Brown date colors */
 .slider-wrapper .cards.block.swiper.slider-swiper ul.swiper-wrapper li.swiper-slide.color-brown a .listing-date {
-    color: var(--news-category);
+    color: #947f5f;
     padding: 10px 0;
     display: inline-block;
     font-size: 10px;
@@ -178,7 +178,7 @@ html, body {
 /* Default title colors */
 .slider-wrapper .cards.block.swiper.slider-swiper ul.swiper-wrapper li.swiper-slide a h3,
 .slider-wrapper .cards.block.swiper.slider-swiper ul.swiper-wrapper li.swiper-slide.color-default a h3 {
-    color: var(--site-color-2);
+    color: #839790;
     margin-top: 20px;
     letter-spacing: 0.02em !important;
     font-weight: 700;
@@ -190,7 +190,7 @@ html, body {
 
 /* Brown title colors */
 .slider-wrapper .cards.block.swiper.slider-swiper ul.swiper-wrapper li.swiper-slide.color-brown a h3 {
-    color: var(--news-category);
+    color: #947f5f;
     margin-top: 20px;
     letter-spacing: 0.02em !important;
     font-weight: 700;

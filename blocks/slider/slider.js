@@ -30,12 +30,6 @@ import {
   
   const blockType = 'cards';
   
-  // Helper function to count path segments
-  function getPathSegmentCount(path) {
-    if (!path) return 0;
-    return path.split('/').filter((segment) => segment).length;
-  }
-  
   // Result parsers parse the query results into a format that can be used by the block builder for
   // the specific block types
   const resultParsers = {
@@ -130,11 +124,8 @@ import {
       rawSlider = []; // Ensure it's an empty array
     }
   
-        // Filter slider items that have at least 3 path segments
-    const filteredSlider = rawSlider.filter((sliderItem) => getPathSegmentCount(sliderItem.path) >= 3);
-
     // Sort slider by date in descending order (latest first)
-    const sortedSlider = filteredSlider.sort((sliderA, sliderB) => {
+    const sortedSlider = rawSlider.sort((sliderA, sliderB) => {
       // Parse date format "dd.mm.yyyy"
       const parseDate = (dateStr) => {
         if (!dateStr) return new Date(0);
