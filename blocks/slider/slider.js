@@ -117,7 +117,7 @@ import {
     };
 
     // Fetch data from the slider index
-    const result = await safeFetch('/slider-index.json');
+    const result = await safeFetch('/lorem-index.json');
     if (result && Array.isArray(result) && result.length > 0) {
       rawSlider = result;
     } else {
