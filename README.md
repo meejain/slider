@@ -2,6 +2,8 @@
 
 A comprehensive, responsive slider component built for Adobe Experience Manager (AEM), featuring dynamic data loading, responsive breakpoints, and smooth animations using Swiper.js.
 
+**Why Swiper Over Simple Carousel Implementation?** This Swiper-based solution delivers enterprise-grade value that simple CSS/JavaScript carousels cannot match. **Key advantages include:** (1) **Native Touch & Swipe Support** - seamless mobile interactions with momentum scrolling and gesture recognition, (2) **Hardware-Accelerated Performance** - CSS3 transforms ensure 60fps animations across all devices, (3) **Intelligent Responsive Breakpoints** - automatically adjusts slide counts (1→2→3→4) based on screen size without complex CSS media queries, (4) **Built-in Accessibility** - ARIA labels, keyboard navigation, and screen reader support out-of-the-box, (5) **Advanced Visual Effects** - smooth opacity transitions and 3D transforms impossible with basic implementations, (6) **Cross-Browser Compatibility** - handles browser inconsistencies automatically, (7) **Rich Event API** - extensive lifecycle hooks for custom integrations, (8) **Performance Optimizations** - virtual slides, lazy loading, and efficient DOM manipulation for large datasets, (9) **Centralized Configuration Management** - all slider behavior, responsive breakpoints, event handlers, navigation controls, and visual effects are managed within a single configuration object, eliminating scattered code, and (10) **Production-Ready Reliability** - battle-tested library used by millions of websites. Simple carousels require custom coding for each of these features, leading to maintenance nightmares and inconsistent user experiences. Swiper consolidates all this functionality into a single, well-documented, continuously updated solution.
+
 ## 🌟 Features
 
 - **Dynamic Data Loading**: Automatically fetches content from JSON data sources
@@ -96,7 +98,7 @@ Data model that encapsulates all properties of a slider item.
 
 ### Advanced Swiper Configuration (Lines 238-269)
 
-The Swiper initialization block (lines 238-269) provides sophisticated slider functionality that simplifies complex option handling:
+The Swiper initialization block (lines 238-269) provides sophisticated slider functionality that simplifies complex option handling. **All slider behavior, responsive breakpoints, event handlers, navigation controls, and visual effects are centrally managed within a single configuration object**, eliminating the need for scattered JavaScript event listeners, multiple CSS media queries, and fragmented initialization code.
 
 #### 🎯 **Responsive Breakpoints Management**
 ```javascript
